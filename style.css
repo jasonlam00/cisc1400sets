@@ -1,0 +1,38 @@
+body
+{
+	background-color: #f2f2f2;
+}
+
+nav {
+	width: 100%;
+	height: 60px;
+	font-size: 20px !important;
+}
+
+.popover{
+	font-size: 20px;
+    max-width: 100%;
+    background-color: #8cd9b3;
+}
+
+
+#terminology
+{
+	font-size:35px;
+	background-color: #339966;
+	margin-left: 100px;
+}
+
+#attributes
+{
+	font-size:35px;
+	background-color: #339966;
+	margin-left: 100px;
+}
+
+#special
+{
+	font-size: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
