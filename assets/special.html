@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<title>Discrete Structures: Sets</title>
+  
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script > $(function () {
+  		$('[data-toggle="popover"]').popover()
+	}) </script>
+
+	<link rel="stylesheet" type="text/css" href="../style.css"/>
+
+</head>
+
+<body>
+
+  	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #339966;">
+  		<a class="navbar-brand" href="../index.html">Discrete Structures: Sets</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+	  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="symbols.html">Set Symbols</a>
+	      		</li>
+	      		<li class="nav-item active">
+	 	      		<a class="nav-link" href="special.html">Special Sets</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="notation.html">Set Notation</a>
+	      		</li>
+	      		<li class="nav-item">
+	 	      		<a class="nav-link" href="operation.html">Set Operations</a>
+	      		</li>
+	      		<li class="nav-item">
+	 	      		<a class="nav-link" href="practice.html">Practice Problems</a>
+	      		</li>
+	      		<li class="nav-item">
+	 	      		<a class="nav-link" href="sources.html">Sources</a>
+	      		</li>
+	    	</ul>
+	  	</div>
+	</nav>
+
+	<br>
+
+	<center><h1 style="color: #339966;"> Special Sets </h1></center>
+
+	<br>
+
+	<center><p id= "special">
+	By using formal notation to describe sets, we avoid listing all the elements of a set, which would be especially time-consuming and inefficient if the sets were large (or infinite)! </p></center>
+
+	<br>
+
+	<center><p id = "special"> However, before we discuss how to describe sets, let us first introduce <b>certain specific</b> sets that are so common they have been assigned their own descriptive names and abbreviations. You may be familiar with many of these sets already, albeit possibly not aware they were sets.  </p></center>
+
+	<br><br><br>
+
+	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="The set of natural numbers contains all non-negative whole/counting numbers that start at 0.<br />It <b>cannot</b> contain negative numbers.<br /> Example: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, . . . }.<br />It is represented with the symbol ℕ." id = "terminology" data-html="true"> 
+  		Natural Numbers (ℕ)
+	</button>
+
+	<br><br><br><br><br>
+
+	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="The set of integer numbers contains all positive and negative whole/counting numbers.<br />It <b>cannot</b> contain fractional numbers.<br /> Example: {. . ., -5, - 4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, . . . }.<br />It is represented with the symbol ℤ." id = "attributes" data-html="true"> 
+  		Integers (ℤ)
+	</button>
+
+	<br><br><br><br><br>
+
+	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="The set of rational numbers contains all numbers that can be expressed as the quotient of two integers.<br />It <b>cannot</b> contain decimal numbers.<br /> Example: {. . ., -5/4, - 4/3, -3/2, -2, -1, 0, 1, 2/3, 3/4, 4/5, 5, . . . }.<br />It is represented with the symbol ℚ." id = "attributes" data-html="true"> 
+  		Rational Numbers (ℚ)
+	</button>
+
+	<br><br><br><br><br>
+
+	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="The set of real numbers contains all numbers that can be expressed on the number line.<br />It <b>cannot</b> contain imaginary numbers.<br /> Example: {. . ., -5.65313..., -1, 0, 1, 2/3, 3.2356123, . . . }.<br />It is represented with the symbol ℝ." id = "attributes" data-html="true"> 
+  		Real Numbers (ℝ)
+	</button>
+
+	<br><br><br><br><br>
+
+</body>
+
+</html>
